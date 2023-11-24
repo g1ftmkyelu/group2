@@ -519,6 +519,7 @@ export const AdminResources = [
                         type: "tags",
                         placeholder: "team players",
                     },
+                    
                 ],
             },
             {
