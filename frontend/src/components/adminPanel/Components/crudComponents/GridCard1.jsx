@@ -25,7 +25,7 @@ const GridCard1 = ({ data }) => {
     const token = getToken()
     const getTeamLogo = async (teamName) => {
         try {
-            const response = await axios.get(`http://localhost:3031/teams`, {
+            const response = await axios.get(`https://group4-1tw1.onrender.com/teams`, {
                 params: {
                     name: teamName,
                     returnFields: 'logo'

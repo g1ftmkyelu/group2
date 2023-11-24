@@ -3,7 +3,7 @@ import { getToken, removeToken, setToken } from '../../components/adminPanel/uti
 import axios from 'axios'; 
 
 const api = axios.create({
-  baseURL: 'http://localhost:3031', // Replace with your API base URL
+  baseURL: 'https://group4-1tw1.onrender.com', // Replace with your API base URL
 });
 
 export const fetchUserData = createAsyncThunk('auth/fetchUserData', async (_, { rejectWithValue }) => {

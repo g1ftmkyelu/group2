@@ -61,7 +61,7 @@ export const AdminResources = [
                         title: "all registered users",
                         path: "users",
                         icon: BiSolidGroup,
-                        dataSource: "http://localhost:3031/users/count",
+                        dataSource: "https://group4-1tw1.onrender.com/users/count",
                         dataType: "count",
                         color: "orange",
                         seeMore: true,
@@ -74,7 +74,7 @@ export const AdminResources = [
                         title: "all tasks",
                         path: "tasks",
                         icon: BiListOl,
-                        dataSource: "http://localhost:3031/tasks/count",
+                        dataSource: "https://group4-1tw1.onrender.com/tasks/count",
                         dataType: "count",
                         color: "purple",
                         seeMore: true,
@@ -87,7 +87,7 @@ export const AdminResources = [
                         title: "pending tasks",
                         path: "tasks",
                         icon: BiListOl,
-                        dataSource: "http://localhost:3031/tasks/count?status=Pending",
+                        dataSource: "https://group4-1tw1.onrender.com/tasks/count?status=Pending",
                         dataType: "count",
                         color: "blue",
                         seeMore: true,
@@ -101,7 +101,7 @@ export const AdminResources = [
                         title: "tasks in progress",
                         path: "tasks",
                         icon: BiListPlus,
-                        dataSource: "http://localhost:3031/tasks/count?status=In Progress",
+                        dataSource: "https://group4-1tw1.onrender.com/tasks/count?status=In Progress",
                         dataType: "count",
                         color: "orange",
                         seeMore: true,
@@ -115,7 +115,7 @@ export const AdminResources = [
                         title: "completed tasks",
                         path: "tasks",
                         icon: BiListCheck,
-                        dataSource: "http://localhost:3031/tasks/count?status=Completed",
+                        dataSource: "https://group4-1tw1.onrender.com/tasks/count?status=Completed",
                         dataType: "count",
                         color: "green",
                         seeMore: true,
@@ -132,7 +132,7 @@ export const AdminResources = [
 
     {
         path: "all users",
-        dataSource: "http://localhost:3031/users",
+        dataSource: "https://group4-1tw1.onrender.com/users",
         icon: FaUserShield,
         sidePanel: false,
         type: "crudGrid",
@@ -151,7 +151,7 @@ export const AdminResources = [
     },
     {
         path: "administrators",
-        dataSource: "http://localhost:3031/users?role=administrator",
+        dataSource: "https://group4-1tw1.onrender.com/users?role=administrator",
         icon: FaUser,
         sidePanel: false,
         type: "crudGrid",
@@ -172,7 +172,7 @@ export const AdminResources = [
     },
     {
         path: "users",
-        dataSource: "http://localhost:3031/users?role=user",
+        dataSource: "https://group4-1tw1.onrender.com/users?role=user",
         icon: BiFootball,
         sidePanel: false,
         type: "crudGrid",
@@ -198,7 +198,7 @@ export const AdminResources = [
 
     {
         path: "tasks",
-        dataSource: "http://localhost:3031/tasks",
+        dataSource: "https://group4-1tw1.onrender.com/tasks",
         icon: BiSolidGroup,
         sidePanel: false,
         type: "crud",
@@ -234,7 +234,7 @@ export const AdminResources = [
 
     {
         path: "registry questionaire",
-        dataSource: "http://localhost:3031/registry",
+        dataSource: "https://group4-1tw1.onrender.com/registry",
         icon: FaRegistered,
         menu: { name: "Qustionaires", icon: BiQuestionMark },
         type: "wizard",
@@ -282,7 +282,7 @@ export const AdminResources = [
 
     {
         path: "faculty questionaire",
-        dataSource: "http://localhost:3031/faculty",
+        dataSource: "https://group4-1tw1.onrender.com/faculty",
         icon: FaRegBuilding,
         menu: { name: "Qustionaires", icon: BiQuestionMark },
         type: "wizard",
@@ -324,7 +324,7 @@ export const AdminResources = [
 
     {
         path: "finance questionaire",
-        dataSource: "http://localhost:3031/finance",
+        dataSource: "https://group4-1tw1.onrender.com/finance",
         icon: FaMoneyBill,
         menu: { name: "Qustionaires", icon: BiQuestionMark },
         type: "wizard",
@@ -367,7 +367,7 @@ export const AdminResources = [
 
     {
         path: "administration questionaire",
-        dataSource: "http://localhost:3031/administration",
+        dataSource: "https://group4-1tw1.onrender.com/administration",
         icon: FaRegistered,
         menu: { name: "Qustionaires", icon: BiQuestionMark },
         type: "wizard",
@@ -398,7 +398,7 @@ export const AdminResources = [
     },
     {
         path: "Library",
-        dataSource: "http://localhost:3031/libray",
+        dataSource: "https://group4-1tw1.onrender.com/libray",
         icon: FaRegistered,
         menu: { name: "Qustionaires", icon: BiBookAdd },
         type: "wizard",
@@ -429,7 +429,7 @@ export const AdminResources = [
     },
     {
         path: "itServices questionaire",
-        dataSource: "http://localhost:3031/itservices",
+        dataSource: "https://group4-1tw1.onrender.com/itservices",
         icon: FaRegistered,
         menu: { name: "Qustionaires", icon: BiQuestionMark },
         type: "wizard",
@@ -461,7 +461,7 @@ export const AdminResources = [
 
     {
         path: "profile",
-        dataSource: "http://localhost:3031/users",
+        dataSource: "https://group4-1tw1.onrender.com/users",
 
         icon: FaUserCog,
         sidePanel: false,
