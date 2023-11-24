@@ -373,7 +373,7 @@ export const AdminResources = [
         type: "wizard",
         steps: [
             {
-                title: "Enter Team name",
+                title: "what kind of administrative data should be captured, such as staff information, payroll, facilities management, etc?",
                 fields: [
                     {
                         name: "name",
@@ -383,7 +383,7 @@ export const AdminResources = [
                 ],
             },
             {
-                title: "Enter players",
+                title: " How are administrave processes currently managed, and what improvements are desired?",
                 fields: [
                     {
                         name: "players",
@@ -404,7 +404,7 @@ export const AdminResources = [
         type: "wizard",
         steps: [
             {
-                title: "Enter Team name",
+                title: "What information about library resources, books, journals and digital materials should the database include",
                 fields: [
                     {
                         name: "name",
@@ -414,7 +414,17 @@ export const AdminResources = [
                 ],
             },
             {
-                title: "Enter players",
+                title: "how are library transaction, borrowing and resource availability managed?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "",
                 fields: [
                     {
                         name: "players",
@@ -435,7 +445,7 @@ export const AdminResources = [
         type: "wizard",
         steps: [
             {
-                title: "Enter Team name",
+                title: "what technical requirements should the database meet in terms of security, scailability and intergration with other systems",
                 fields: [
                     {
                         name: "name",
@@ -445,7 +455,7 @@ export const AdminResources = [
                 ],
             },
             {
-                title: "Enter players",
+                title: "Are there nay existing systems or databases that need to be intergrated with new databases?",
                 fields: [
                     {
                         name: "players",
