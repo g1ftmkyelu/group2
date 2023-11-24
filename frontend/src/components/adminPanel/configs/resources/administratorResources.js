@@ -274,6 +274,36 @@ export const AdminResources = [
                     },
                 ],
             },
+            {
+                title: "How do you store your data?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have any issues with the system?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have anything of the system that you feel has to be improved?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            }
 
         ],
 
@@ -317,7 +347,36 @@ export const AdminResources = [
                     },
                 ],
             },
-
+            {
+                title: "How do you store your data?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have any issues with the system?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have anything of the system that you feel has to be improved?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            }
         ],
 
     },
@@ -359,6 +418,36 @@ export const AdminResources = [
                     },
                 ],
             },
+            {
+                title: "How do you store your data?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have any issues with the system?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have anything of the system that you feel has to be improved?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            }
 
         ],
 
@@ -392,6 +481,36 @@ export const AdminResources = [
                     },
                 ],
             },
+            {
+                title: "How do you store your data?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have any issues with the system?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            },
+            {
+                title: "Do you have anything of the system that you feel has to be improved?",
+                fields: [
+                    {
+                        name: "players",
+                        type: "tags",
+                        placeholder: "team players",
+                    },
+                ],
+            }
 
         ],
 
